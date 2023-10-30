@@ -1,0 +1,84 @@
+
+    .body{
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/sky-blue-plane-smoke.jpg);
+        /* background-color: rgb(241, 233, 249); */
+        background-size: cover;
+        height: 100vh;
+    }
+    .fom{
+        margin-top: 50px;
+        
+    }
+    .form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+ .h1{
+    text-align: center;
+    color: rgb(3, 3, 82);
+    background-color: orange;
+    border-radius: 20px;
+    padding: 15px;
+ }
+ .p{
+    color: rgb(3, 3, 82);
+    padding-left: 25px;
+ }
+
+.input1{
+    border-radius: 30px;
+    padding: 15px 25px;
+    border: 1px solid orange;
+    margin-left: 10px;
+}
+
+select, option{
+    color: orange;
+}
+
+.label1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(3, 3, 82);
+    margin-left: 10px;
+}
+
+::placeholder{
+    color: orange;
+}
+.send-btn1:hover{
+    background: orange;
+    color: white;
+}
+.send-btn1{
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    cursor: pointer;
+    background: rgb(249, 214, 148);
+    color: rgb(3, 3, 82);
+    margin-left: 10px;
+}
+
+@media screen and (max-width : 767px){
+    .body{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(241, 233, 249);
+        height: 120vh; 
+    }
+    
+    .form{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
